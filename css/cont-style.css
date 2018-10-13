@@ -3,14 +3,15 @@
 }
         
 .left {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("./images/left.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../images/left.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;
     height: 100vh;
     width: 40%;
-    text-align: center
+    text-align: center;
+  )
 }
         
 .right{
@@ -22,14 +23,6 @@
 .cform{
     margin-top: 20px;
 }
-
-
-https://script.google.com/macros/s/AKfycbzTKU24epQboHk77sZKud-clNE_IzsU7McDEBIWOQ/exec
-
-https://script.google.com/macros/s/AKfycbzTKU24epQboHk77sZKud-clNE_IzsU7McDEBIWOQ/exec
-
-
-
 /*Media Query*/
 
 @media (min-width:576px) {
@@ -47,7 +40,7 @@ https://script.google.com/macros/s/AKfycbzTKU24epQboHk77sZKud-clNE_IzsU7McDEBIWO
 }  
     
     .left {
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("./images/left-2.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../images/left-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
