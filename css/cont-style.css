@@ -3,7 +3,7 @@
 }
         
 .left {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../images/left.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../images/contact-us/left.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -40,7 +40,7 @@
 }  
     
     .left {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../images/left-2.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0)), url("../images/contact-us/left-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
