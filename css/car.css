@@ -1,8 +1,15 @@
 /*Navbar */
 .bar{
      background-color: rgba(0,0,0,.55) !important ;
+     width: 100%;
     }
-
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 
 /*head carousel*/
 .carousel {
@@ -198,6 +205,10 @@ div.sidebox{
 	}
 	div.carousel-item img{
 		height: 50%;
+	}
+	div.navbar-expand-lg{
+		flex-flow: row nowrap;
+		justify-content: flex-start;
 	}
 	
 }
