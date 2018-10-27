@@ -1,12 +1,19 @@
 /*Navbar */
 .bar{
      background-color: rgba(0,0,0,.55) !important ;
+     width: 100%;
     }
-
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 
 /*head carousel*/
 .carousel {
-	max-height: 1130px;
+	max-height: 755px;
 	overflow: hidden;
 	width: auto;
 	.item img {
@@ -42,6 +49,10 @@
 		z-index: 3;
 		min-width: 400px;
 }
+.carousel-item img{
+	 height: 100%;
+	  width:100%;
+}
 
 .header-text h1{
 	z-index: 3;
@@ -68,10 +79,19 @@
 		height: 10px;
 	}
 
+.box2{
+	padding-top: 100px;
+	margin-bottom: 500px;
+}
+
 .sidebox{
 	padding-top: 40px;
 	float: right;
 	padding-right: 50px;
+}
+.sidebox img{
+	 width:330px;
+	 height:auto;
 }
 /*facebook posts div*/
 .box{ 
@@ -117,6 +137,69 @@
 
 }
 
+/*gallery*/
+.border2{
+	border-bottom: 1px solid white;
+	width: 25%;
+	margin: 0 auto;
+	height: 10px;
+	}
+.back{
+	background-color: #212020;
+}
+.card{
+	border:none !important;
+}
+/*gallery zoom*/
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+position: fixed;
+z-index: 3;
+top: -100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+/* Provides part of the "X" to eliminate an image from the close link */
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+left: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
 
 
 @media screen and (max-width: 996px){
@@ -159,8 +242,8 @@ div.sidebox{
 		padding-top: 30px;
 	}
 	div.sidebox{
-		padding-right: 25%;
-		padding-left: 25%;
+		padding-right: 15%;
+		padding-left: 15%;
 	}
 	p.lead{
 		font-size: 1em;
@@ -188,14 +271,12 @@ div.sidebox{
 	div.carousel-item img{
 		height: 50%;
 	}
+	div.navbar-expand-lg{
+		flex-flow: row nowrap;
+		justify-content: flex-start;
+	}
+	.modal-content {
+        width: 100%;
+    }
 	
-}
-.home_carousel
-{
-	height: 100%;
-	width: 100%;
-}
-.About
-{
-	padding-top: 100px;
 }
