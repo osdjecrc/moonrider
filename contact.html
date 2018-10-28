@@ -13,60 +13,20 @@
 </head>
 <body>
 
-<div>
-	<nav class="navbar navbar-expand-lg bar fixed-top">
-           <a class="navbar-brand text-white " href="#">Navbar</a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-           </button>
-
-           <div class="collapse navbar-collapse justify-content-end mr-5 navbar-dark" id="navbarNavAltMarkup">
-               <ul class="navbar-nav">
-                   <li class="nav-item">
-                       <a class="
-                       nav-item nav-link active text-info" href="#">Home</a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link text-white nav-item" href="#">About</a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link text-white nav-item" href="#">Gallery</a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link nav-item text-white" href="#">Projects</a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link nav-item text-white " href="#">Team</a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link nav-item text-white" href="#">Activities</a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link nav-item text-white" href="#">Contact</a>
-                   </li>
-               </ul>
-           </div>
-       </nav>
-</div>
-
-
 	<!--main div -->
 	<div class="contact-page" id="contact" style="display:block;">
 		<!--first row -->
 		<div class="row">
 			<!--div of left container-->
 			<div class="main col-sm-12 col-md-4">
+
+			<div>
+	</div>
 				<div class="overlay">
 					
 					<div class="image1 new">
-						<img src="left.jpg" alt="image">
-					</div>
-
-
-					<div>
-						<h1 class="head display-3 margins text-white">Contact Us</h1>
-					</div>	
-
+						<img src="./images/contact-us/left.jpg" alt="image">
+                    </div>
 
 				</div>
 			</div>
@@ -77,6 +37,14 @@
 			<!--div of right container-->
 			<div class="right_container col-md-8 col-sm-12 col-xs-12 ">
 				<div class="content">
+
+				
+				
+				<div class="box1">
+				    <h class="sub_head">Get in touch with us :</h> <br>
+                    <p class="sub_1">Feel free to drop us a line and we'll get back to you in 24 hours max! </p>
+				</div>
+
 					<!--div of form-->
 				
 				<div class="contactform d-block">
@@ -88,24 +56,34 @@
                       
                            <div class="form-group">
                                <fieldset class="pure-group">
-                                <label for="name">Name&nbsp;&nbsp;</label>
-                                <input id="name" name="name" placeholder="Full name" />
+
+                                <label class="form_headings"  for="name"> Your Name&nbsp;&nbsp;</label> 
+                                
+                             
+                              <input class="first" id="name" name="name" placeholder="Full name" />
+
                             </fieldset>
                         </div>
 
                   <div class="form-group phone">
                            <fieldset class="pure-group">
-                            <label for="color">Contact&nbsp;&nbsp;</label>
-                            <input id="color" name="contact" placeholder="Contact Number" />
+
+                            <label class="form_headings"for="color">Your Phone Number&nbsp;&nbsp;</label>
+                         
+                            <input class="first" id="color" name="contact" placeholder="+91 1234567890" />
+
                         </fieldset>
                     </div>
 
 
                     <div class="form-group">
                    <fieldset class="pure-group">
-                    <label for="email"><em>Your</em> Email Address&nbsp;&nbsp;</label>
-                    <input id="email" name="email" type="email" value=""
-                    required placeholder="yourname@email.com"/>
+
+                    <label class="form_headings" for="email"><em>Your</em> Email Address&nbsp;&nbsp;</label>
+                 
+                    <input class="first" id="email" name="email" type="email" value=""
+                    required placeholder="example@email.com"/>
+
                     <span class="email-invalid" style="display:none">
                     Must be a valid email address</span>
                 </fieldset>
@@ -114,16 +92,21 @@
 
             <div class="form-group">
                <fieldset class="pure-group">
-                <label for="message">Message&nbsp;&nbsp;</label>
-                <textarea id="message msg" name="message" rows="3" cols="50" 
+
+                <label class="form_headings" for="message">Your Message&nbsp;&nbsp;</label>
+            
+                <textarea class="first" id="message msg" name="message" rows="3" cols="50" 
+
                 placeholder="Tell us what's on your mind..."></textarea>
             </fieldset>
         </div>
 
 
 
-        <button class="btn btn-primar">
-            <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+        <button class="but1 btn btn-primar">
+            <i class="fa fa-paper-plane"></i>&nbsp;Send Your Message</button>
+
         </div>
 
         <!-- Customise the Thankyou Message People See when they submit the form: -->
@@ -214,7 +197,7 @@
 		       	<div class="clearfix">
     				<span class="float-right">Copyright © 2018 Moonriders | All Rights Reserved</span>
 		       	
-		       </div></div></div>
+		       </div>
 	           </footer>
 	</div>
 
