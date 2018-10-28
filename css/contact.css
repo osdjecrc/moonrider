@@ -1,0 +1,317 @@
+html{
+	font-family: Montserrat, sans-serif !important;
+}
+.navbar{
+    margin-bottom: 10vh;
+}
+.contactform{
+    
+   
+}
+.contact-page{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.image1{
+	position: fixed;
+	width: 100% !important;
+	overflow-y: hidden;
+	float: left;
+	z-index: -2;
+	padding: 0px !important;
+	height: 100% !important;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.container{
+	margin:auto;
+}
+img{
+	height: 100%;
+	width: 600px !important;
+}
+.main{
+	width: 40%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	padding: 0px !important;
+}
+.overlay{
+	background-color: rgba(0,0,0,.45) !important;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	float: left;
+	overflow-y: hidden;
+
+
+}
+.margins{
+	margin-left: 50px;
+	margin-bottom: 150px;
+	position: fixed;
+	bottom: 0;
+}
+.head2{
+	margin:auto;
+}
+.label{
+	box-sizing: border-box;
+	box-sizing: inherit;
+}
+.field{
+	width: 100%;
+	z-index: 1;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+form
+{
+	display: block;
+}
+.form2{
+	padding-top: 20px !important;
+}
+.first
+{
+	margin: auto;
+	display: block;
+	width: 48vw;
+	height: 50px;
+	background: #e6e6e6;
+	font-size: 15px;
+	color: #666666;
+	border-radius: 25px;
+	font-weight: 800;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.field{
+	margin-right: 90px; 
+	margin-left: 40px;
+}
+.font{
+	padding: 0px 61px 0px 61px;
+}
+input
+{
+	outline: none;
+	border: none;
+}
+textarea.field
+{
+	min-height: 150px;
+	border-radius: 25px;
+	padding: 12px 30px;
+}
+textarea
+{
+	border:none;
+	outline: none;
+	font-weight: 800;
+}
+.fieldbut{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.but1{
+	min-width: 40vw;
+	height: 50px;
+	border-radius: 25px;
+	background: #57b846;
+	font-weight: 800;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 60px;
+	align-items: center!important;
+	margin: auto auto auto 185px !important;
+}
+button
+{
+	outline: none;
+	border: none;
+}
+button:hover
+{
+	background-color: #333333;
+}
+.mapouter{
+	text-align:right;
+	height:260px;
+	width:600px;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:260px;
+	width:600px;
+}
+.margins{
+	margin-bottom: 100px;
+	margin-left: 70px;
+}
+.right_container{
+	width: 60%;
+	padding: 0px !important;
+	margin-top: 0;
+}
+.content{
+	position: relative;
+	padding: 0px;
+	background: rgb(245,245,245);
+	margin-right: 0px;
+
+}
+.heading{
+	text-align: center;
+	padding: 60px 0px 20px;
+	font-weight: 500;
+	color: rgb(52,51,51);
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.contact p i{
+	font-size: 25px;
+	margin: 20px 0px;
+}
+.contact p{
+	text-align: center;
+	color: rgb(52,51,51);
+}
+.fa{
+	display: inline-block;
+}
+.fluid footer{
+	background-color: black;
+
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 40px;
+	padding-left: 10px;
+}
+.fluid footer span{
+	color: lightgrey;
+	font-size: 15px;
+}
+.visit{
+	text-align: center;
+	padding: 60px 0px 20px;
+	font-weight: 500;
+	color: rgb(52,51,51);
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 1rem;
+}
+.sub-head{
+	font-size: 2rem;
+}
+.frame{
+	margin-right: 60px;
+	margin-left: 60px;
+	padding-top: 20px;
+}
+.map1{
+	margin-top: 60px !important;
+	margin-left: 100px !important;
+}
+.icon1{
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+.icon2{
+	color: #000;
+	display: inline-block;
+	width: 25px !important;
+	height: 25px !important;
+
+}
+a:hover{
+	text-decoration: none;
+}
+
+.formcot{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.text{
+	font-size:18px;
+}
+@media only screen and (max-width: 768px){
+	.footer{
+		padding: 10px 60px !important;
+	}
+	.form2{
+
+		padding: 80px 40px !important;
+	}
+	.main{
+		display: block;
+		position: block;
+		height: 20%;
+		width: 100%;
+	}
+	h1{
+		top: 0;
+	}
+	.more{
+		display: none;
+	}
+}
+@media only screen and (max-width: 767px){
+	.form2{
+		padding: 30px 30px  !important;
+	}
+	.main{
+		display: none;
+		position: block;
+		
+	}
+	h1{
+		top: 0;
+	}
+	.more{
+		display: none;
+	}
+}
+@media only screen and (max-width: 568px){
+	.main{
+		display: none !important;
+
+	}
+
+	.field{
+		width: 50px;
+	}
+
+}
+@media only screen and (max-width: 360px){
+	.head2{
+		display: none;
+		margin:0 !important;
+	}
+	.h1{
+		display: block !important;
+	}
+	.label{
+		margin: auto !important;
+	}
+}
+@media only screen and (max-width: 411px){
+	.head2{
+		display: none !important;
+		margin:0 !important;
+	}
+}
