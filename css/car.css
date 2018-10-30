@@ -145,7 +145,7 @@
 	height: 10px;
 	}
 .back{
-	background-color: #212020;
+	background-color: #F7F7F7;
 }
 .card{
 	border:none !important;
@@ -356,6 +356,7 @@ div.sidebox{
 	}
 	div.box2 h1{
 		font-size: 3em;
+        
 	}
 	div.carousel-item img{
 		height: 50%;
