@@ -12,6 +12,28 @@ html{
     text-align: center;
  
 }
+.home{
+	color: #fff;
+	top: 10px !important;
+	left: 20px !important;
+	font-size: 35px !important;
+	position: fixed;
+
+}
+
+.fa{
+	display: inline-block;
+}
+.fluid footer span{
+	color: lightgrey;
+	font-size: 15px;
+}
+
+.icon4{
+	color: red ! important;
+	display: inline-block ! important;
+	font-size: 15px ! important;
+}
 
 .navbar{
     margin-bottom: 10vh;
@@ -313,7 +335,7 @@ a:hover{
 	padding-left: 25px;
 	padding-right: 25px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (width: 768px){
     .first
 {
 	margin: auto;
@@ -330,10 +352,7 @@ a:hover{
 }
     .right_heading{
         display: block;
-    }    
-    .footer{
-		padding: 10px 60px !important;
-	}
+    }  
 	
 
 	.main{
@@ -347,11 +366,22 @@ a:hover{
 	.more{
 		display: none;
 	}
-
+   footer span{
+    	font-size: 10px !important;
+    	text-align:center;
+    	padding: 10px !important;
+    }
+    .home{
+    	display: block !important;
+    	top:0;
+    	right:0;
+    	color: #000 !important;
+    }
+    .content{
+		width: 790px !important;
+	}
     
 }
-
-
 @media only screen and (max-width: 568px){
 	.main{
 		display: none !important;
@@ -364,37 +394,59 @@ a:hover{
 
     
     .sub_1{
-            font-size: 1.2em;
-    padding-left: 24px;
-    padding-right: 24px;
+        font-size: 1.2em;
+        padding-left: 24px;
+        padding-right: 24px;
     }
     .first{
         width: 82vw;
     }
-}
-
-
-
-
-@media only screen and (max-width: 360px){
-	.head2{
-		display: none;
-		margin:0 !important;
-	}
-	.h1{
-		display: block !important;
-	}
-	.label{
-		margin: auto !important;
-	}
-
-     .sub_1 {
-    font-size: 19px;
-}
-    .sub_head{
-        font-size: 3.5rem;
+    .home{
+    	float:right;
+    	color: #000;
     }
-    .first{
-        width:77vw;
+   footer span{
+    	font-size: 10px !important;
+    	text-align:center;
+    	padding: 10px !important;
+    }
+    .home{
+    	top: 0 !important;
+    	right: 10px;
+    	color: #000;
+    	position: fixed !important;
+    	display: block;
+    }
+}
+
+
+
+
+
+@media only screen and (width: 1024px){
+	.main{
+		display: none !important;
+
+	}
+	.content{
+		width: 1040px;
+		height: 1366px;
+	}
+	footer span{
+		padding: 0 20px !important;
+	}
+	.fluid{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+	}
+	.home{
+    	top: 0 !important;
+    	right: 10px;
+    	color: #000;
+    	position: fixed !important;
+    	display: block;
     }
 }
