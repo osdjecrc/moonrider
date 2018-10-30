@@ -13,11 +13,12 @@ html{
  
 }
 .home{
-	color: #fff;
+	color: #000;
 	top: 10px !important;
-	left: 20px !important;
+	margin-left: 30px;
 	font-size: 35px !important;
 	position: fixed;
+	float: left;
 
 }
 
@@ -90,8 +91,10 @@ img{
 	width: 100%;
 	float: left;
 	overflow-y: hidden;
-
-
+}
+.home{
+	top: 0px!important;
+	right: 30px !important;
 }
 .margins{
 	margin-left: 50px;
@@ -239,14 +242,11 @@ button:hover
 	display: inline-block;
 }
 .fluid footer{
+	display: flex;
 	background-color: black;
-
-	padding-top: 8px;
-	padding-bottom: 8px;
-	padding-right: 40px;
-	padding-left: 10px;
+	padding: 15px 20px 15px 15px;
 }
-.fluid footer span{
+.fluid footer p{
 	color: lightgrey;
 	font-size: 15px;
 }
@@ -363,24 +363,29 @@ a:hover{
 	h1{
 		top: 0;
 	}
-	.more{
-		display: none;
-	}
-   footer span{
-    	font-size: 10px !important;
+	 .fluid footer p{
+    	font-size: 13px !important;
     	text-align:center;
-    	padding: 10px !important;
+    	float: none;
+    	display: inline-table;
+    }
+    .fluid footer{
+    	display: block;
+    	text-align: center;
     }
     .home{
     	display: block !important;
     	top:0;
-    	right:0;
+    	right:10px;
     	color: #000 !important;
     }
     .content{
 		width: 790px !important;
 	}
     
+    .thank{
+    	padding: 0px 10px 0px 10px;
+    }
 }
 @media only screen and (max-width: 568px){
 	.main{
@@ -401,28 +406,38 @@ a:hover{
     .first{
         width: 82vw;
     }
-    .home{
-    	float:right;
-    	color: #000;
-    }
-   footer span{
-    	font-size: 10px !important;
+    .fluid footer p{
+    	font-size: 13px !important;
     	text-align:center;
-    	padding: 10px !important;
+    	float: none;
+    	display: inline-table;
+    }
+    .fluid footer{
+    	display: block;
+    	text-align: center;
     }
     .home{
     	top: 0 !important;
     	right: 10px;
-    	color: #000;
+    	color: #000 !important;
     	position: fixed !important;
-    	display: block;
+    	display: block !important;
+    	float: right;
+    }
+    .thank{
+    	padding: 0px 10px 0px 10px;
     }
 }
-
-
-
-
-
+@media only screen and(width: 320px){
+	.thank{
+		padding: 0px 60px 0px 60px !important;
+	}
+}
+@media only screen and(max-width: 375px){
+	.thank{
+		padding: 0px 10px 0px 10px;
+	}
+}
 @media only screen and (width: 1024px){
 	.main{
 		display: none !important;
@@ -432,21 +447,25 @@ a:hover{
 		width: 1040px;
 		height: 1366px;
 	}
-	footer span{
-		padding: 0 20px !important;
-	}
-	.fluid{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1030;
-	}
+    .fluid footer p{
+    	font-size: 13px !important;
+    	text-align:center;
+    	float: none;
+    	display: inline-table;
+    }
+    .fluid footer{
+    	display: block;
+    	text-align: center;
+    }
 	.home{
     	top: 0 !important;
     	right: 10px;
-    	color: #000;
+    	color: #000 !important;
     	position: fixed !important;
-    	display: block;
+    	display: block !important;
+    	float: right;
+    }
+    .thank{
+    	padding: 0px 10px 0px 10px;
     }
 }
