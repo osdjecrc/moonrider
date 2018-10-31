@@ -1,14 +1,14 @@
 /*Navbar */
 .bar{
-     background-color: rgba(0,0,0,.55) !important ;
-     width: 100%;
-    }
+	background-color: rgba(0,0,0,.55) !important ;
+	width: 100%;
+}
 .fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
 }
 
 /*head carousel*/
@@ -33,25 +33,23 @@
 	
 }
 .mylayer{
-	 position: absolute;
-		width: 100%;
-		height: 100%;
-		z-index: 2;
-		background-color: #000000;
-		opacity: 0.5;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: #000000;
+	opacity: 0.5;
 }
 .header-text {
-		position: absolute;
-		top: 33%;
-		left: 1.8%;
-		right: auto;
-		width: 96.66666666666666%;
-		z-index: 3;
-		min-width: 400px;
+	position: absolute;
+	top: 33%;
+	width: 100%;
+	z-index: 3;
+	min-width: 400px;
 }
 .carousel-item img{
-	 height: 100%;
-	  width:100%;
+	height: 100%;
+	width:100%;
 }
 
 .header-text h1{
@@ -67,17 +65,17 @@
 
 /*About us content*/
 .about1{
-		padding-top:70px;
-		width: 55%;
-		float: left;
-		padding-left: 50px;
-		}
+	padding-top:70px;
+	width: 55%;
+	float: left;
+	padding-left: 50px;
+}
 .border1{
-		border-bottom: 1px solid #16648D;
-		width: 35%;
-			margin: 0 auto;
-		height: 10px;
-	}
+	border-bottom: 1px solid #16648D;
+	width: 35%;
+	margin: 0 auto;
+	height: 10px;
+}
 
 .box2{
 	padding-top: 100px;
@@ -90,8 +88,8 @@
 	padding-right: 50px;
 }
 .sidebox img{
-	 width:330px;
-	 height:auto;
+	width:330px;
+	height:auto;
 }
 /*facebook posts div*/
 .box{ 
@@ -140,10 +138,10 @@
 /*gallery*/
 .border2{
 	border-bottom: 1px solid white;
-	width: 25%;
+	width: 35%;
 	margin: 0 auto;
 	height: 10px;
-	}
+}
 .back{
 	background-color: #F7F7F7;
 }
@@ -154,17 +152,17 @@
 /* Styles the lightbox, removes it from sight and adds the fade-in transition */
 
 .lightbox-target {
-position: fixed;
-z-index: 3;
-top: -100%;
-background: rgba(0,0,0,.7);
-width: 100%;
-opacity: 0;
--webkit-transition: opacity .5s ease-in-out;
--moz-transition: opacity .5s ease-in-out;
--o-transition: opacity .5s ease-in-out;
-transition: opacity .5s ease-in-out;
-overflow: hidden;
+	position: fixed;
+	z-index: 3;
+	top: -100%;
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	opacity: 0;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+	-o-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+	overflow: hidden;
 }
 /*image styling gallery*/
 .lightbox img{
@@ -174,40 +172,40 @@ overflow: hidden;
 
 /*gallery zoom image styling*/
 #pg1 img{ 
-width: 70%;
-height: auto;
+	width: 70%;
+	height: auto;
 }
 #pg2 img{ 
-width: auto;
-height: 90%;
+	width: auto;
+	height: 90%;
 }
 #pg3 img{ 
-width: 80%;
-height: auto;
+	width: 80%;
+	height: auto;
 }
 #pg4 img{ 
-width: auto;
-height: 90%;
+	width: auto;
+	height: 90%;
 }
 #pg5 img{ 
-width: 70%;
-height: auto;
+	width: 70%;
+	height: auto;
 }
 #pg6 img{ 
-width: 60%;
-height: auto;
+	width: 60%;
+	height: auto;
 }
 #pg7 img{ 
-width: 60%;
-height: auto;
+	width: 60%;
+	height: auto;
 }
 #pg8 img{ 
-width: 70%;
-height: auto;
+	width: 70%;
+	height: auto;
 }
 #pg9 img{ 
-width: 70%;
-height: auto;
+	width: 70%;
+	height: auto;
 }
 
 
@@ -215,44 +213,44 @@ height: auto;
 /* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
 
 .lightbox-target img {
-margin: auto;
-position: absolute;
-top: 0;
-left:0;
-right:0;
-bottom: 0;
-max-height: 0%;
-max-width: 0%;
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left:0;
+	right:0;
+	bottom: 0;
+	max-height: 0%;
+	max-width: 0%;
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
 }
 /* Provides part of the "X" to eliminate an image from the close link */
 
 .lightbox-target:target {
-opacity: 1;
-top: 0;
-left: 0;
-bottom: 0;
+	opacity: 1;
+	top: 0;
+	left: 0;
+	bottom: 0;
 }
 
 .lightbox-target:target img {
-max-height: 100%;
-max-width: 100%;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .lightbox-target:target a.lightbox-close {
-top: 0px;
+	top: 0px;
 }
 /*Some data content*/
 .icon1{
 	color: #CCCBCB;
 	height: 40px;
 	width: 40px;	
-    text-align: center;
-    font-size: 47px !important;
-    
+	text-align: center;
+	font-size: 47px !important;
+
 }
 .col{
 	border-right: 1px solid #ABABAB;
@@ -276,26 +274,26 @@ top: 0px;
 		font-size: 35px !important;
 	}
 	.col h3{
-	font-size: 2em;
-}
-.col h5{
-	font-size: 1em;
-}
-div.about1{
-	padding-left: 0px;
-	float: none;
-	width: 100%;
-}
+		font-size: 2em;
+	}
+	.col h5{
+		font-size: 1em;
+	}
+	div.about1{
+		padding-left: 0px;
+		float: none;
+		width: 100%;
+	}
 
-div.sidebox h4{
-	text-align: center;
-	padding-right: 0%;
-	padding-left: 0%;
-}
-div.box{
-padding-right: 0px;
-}
-div.sidebox{
+	div.sidebox h4{
+		text-align: center;
+		padding-right: 0%;
+		padding-left: 0%;
+	}
+	div.box{
+		padding-right: 0px;
+	}
+	div.sidebox{
 		justify-content: center;
 		width: 100%;
 		padding-right: 30%;
@@ -308,21 +306,21 @@ div.sidebox{
 		font-size: 25px !important;
 	}
 	.col h3{
-	font-size: 1em;
-}
-.col h5{
-	font-size: 0.5em;
-}
+		font-size: 1em;
+	}
+	.col h5{
+		font-size: 0.5em;
+	}
 
 
 	div.header-text h1{
-		 font-size: 3.5em;
-		 text-align: center;
-		 }
+		font-size: 3.5em;
+		text-align: center;
+	}
 	div.header-text h3{
 		font-size: 1.2em;
 		justify-content: center;
-		}
+	}
 	div.about1{
 		text-align: center;
 		width: 100%;
@@ -356,7 +354,13 @@ div.sidebox{
 	}
 	div.box2 h1{
 		font-size: 3em;
-        
+
+	}
+	#t1 h1{
+		font-size: 3em;
+	}
+	#gallery h1{
+		font-size: 3em;
 	}
 	div.carousel-item img{
 		height: 50%;
@@ -366,21 +370,21 @@ div.sidebox{
 		justify-content: flex-start;
 	}
 	.modal-content {
-        width: 100%;
-    }
+		width: 100%;
+	}
 	
 }
 @media screen and (max-width: 500px){
 	.navbar img{
 		width: 180px !important;
 	}
-		div.header-text h1{
-		 font-size: 2.5em;
-		 text-align: center;
-		 }
+	div.header-text h1{
+		font-size: 2.5em;
+		text-align: center;
+	}
 	div.header-text h3{
 		font-size: 1.0em;
 		justify-content: center;
-		}
+	}
 }
 
