@@ -383,11 +383,20 @@ a:hover{
 	padding-right: 25px;
 }
 .mod_foot{
-    width: 100% !important;
-    height:200px !important;
+    height:220px !important;
 }
 li{
 	margin-right: 40px;
+}
+.modal-header{
+	padding: 0rem 2rem 0rem 2rem !important;
+}
+.team{
+	width: 150% !important;
+	height: 1350px !important;
+}
+.extra{
+	position: fixed;
 }
 @media only screen and (width: 768px){
     .first
