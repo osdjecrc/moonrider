@@ -1,7 +1,7 @@
 particlesJS("particles-js1" ,
 	{"particles": {
 		"number": {
-			"value": 70,
+			"value": 45,
 			"density": {
 				"enable": true,
 				"value_area": 800
@@ -50,7 +50,7 @@ particlesJS("particles-js1" ,
 		},
 		"move": {
 			"enable": true,
-			"speed": 6,
+			"speed": 2,
 			"direction": "none",
 			"random": false,
 			"straight": false,
@@ -67,7 +67,7 @@ particlesJS("particles-js1" ,
 		"detect_on": "canvas",
 		"events": {
 			"onhover": {
-				"enable": false,
+				"enable": true,
 				"mode": "repulse"
 			},
 			"onclick": {
@@ -92,7 +92,7 @@ particlesJS("particles-js1" ,
 			},
 			"repulse": {
 				"distance": 400,
-				"duration": 0.4
+				"duration": 0.8
 			},
 			"push": {
 				"particles_nb": 4
@@ -115,7 +115,7 @@ particlesJS("particles-js1" ,
 particlesJS("particles-js2" ,
 	{"particles": {
 		"number": {
-			"value": 70,
+			"value": 45,
 			"density": {
 				"enable": true,
 				"value_area": 800
@@ -181,7 +181,7 @@ particlesJS("particles-js2" ,
 		"detect_on": "canvas",
 		"events": {
 			"onhover": {
-				"enable": false,
+				"enable": true,
 				"mode": "repulse"
 			},
 			"onclick": {
@@ -206,7 +206,7 @@ particlesJS("particles-js2" ,
 			},
 			"repulse": {
 				"distance": 400,
-				"duration": 0.4
+				"duration": 0.8
 			},
 			"push": {
 				"particles_nb": 4
@@ -233,7 +233,7 @@ particlesJS("particles-js2" ,
 particlesJS("particles-js3" ,
 	{"particles": {
 		"number": {
-			"value": 70,
+			"value": 45,
 			"density": {
 				"enable": true,
 				"value_area": 800
@@ -299,7 +299,7 @@ particlesJS("particles-js3" ,
 		"detect_on": "canvas",
 		"events": {
 			"onhover": {
-				"enable": false,
+				"enable": true,
 				"mode": "repulse"
 			},
 			"onclick": {
@@ -324,7 +324,7 @@ particlesJS("particles-js3" ,
 			},
 			"repulse": {
 				"distance": 400,
-				"duration": 0.4
+				"duration": 0.8
 			},
 			"push": {
 				"particles_nb": 4
@@ -351,7 +351,7 @@ particlesJS("particles-js3" ,
 particlesJS("particles-js4" ,
 	{"particles": {
 		"number": {
-			"value": 70,
+			"value": 45,
 			"density": {
 				"enable": true,
 				"value_area": 800
@@ -417,7 +417,7 @@ particlesJS("particles-js4" ,
 		"detect_on": "canvas",
 		"events": {
 			"onhover": {
-				"enable": false,
+				"enable": true,
 				"mode": "repulse"
 			},
 			"onclick": {
@@ -442,7 +442,7 @@ particlesJS("particles-js4" ,
 			},
 			"repulse": {
 				"distance": 400,
-				"duration": 0.4
+				"duration": 0.8
 			},
 			"push": {
 				"particles_nb": 4
@@ -469,7 +469,7 @@ particlesJS("particles-js4" ,
 particlesJS("particles-js5" ,
 	{"particles": {
 		"number": {
-			"value": 70,
+			"value": 45,
 			"density": {
 				"enable": true,
 				"value_area": 800
@@ -535,7 +535,7 @@ particlesJS("particles-js5" ,
 		"detect_on": "canvas",
 		"events": {
 			"onhover": {
-				"enable": false,
+				"enable": true,
 				"mode": "repulse"
 			},
 			"onclick": {
@@ -560,7 +560,7 @@ particlesJS("particles-js5" ,
 			},
 			"repulse": {
 				"distance": 400,
-				"duration": 0.4
+				"duration": 0.8
 			},
 			"push": {
 				"particles_nb": 4
@@ -587,7 +587,7 @@ particlesJS("particles-js5" ,
 particlesJS("particles-js6" ,
 	{"particles": {
 		"number": {
-			"value": 70,
+			"value": 45,
 			"density": {
 				"enable": true,
 				"value_area": 800
@@ -653,7 +653,7 @@ particlesJS("particles-js6" ,
 		"detect_on": "canvas",
 		"events": {
 			"onhover": {
-				"enable": false,
+				"enable": true,
 				"mode": "repulse"
 			},
 			"onclick": {
@@ -678,7 +678,7 @@ particlesJS("particles-js6" ,
 			},
 			"repulse": {
 				"distance": 400,
-				"duration": 0.4
+				"duration": 0.8
 			},
 			"push": {
 				"particles_nb": 4
@@ -705,7 +705,7 @@ particlesJS("particles-js6" ,
 particlesJS("particles-js7" ,
 	{"particles": {
 		"number": {
-			"value": 70,
+			"value": 45,
 			"density": {
 				"enable": true,
 				"value_area": 800
@@ -771,7 +771,7 @@ particlesJS("particles-js7" ,
 		"detect_on": "canvas",
 		"events": {
 			"onhover": {
-				"enable": false,
+				"enable": true,
 				"mode": "repulse"
 			},
 			"onclick": {
@@ -796,7 +796,7 @@ particlesJS("particles-js7" ,
 			},
 			"repulse": {
 				"distance": 400,
-				"duration": 0.4
+				"duration": 0.8
 			},
 			"push": {
 				"particles_nb": 4
@@ -823,7 +823,7 @@ particlesJS("particles-js7" ,
 particlesJS("particles-js8" ,
 	{"particles": {
 		"number": {
-			"value": 70,
+			"value": 45,
 			"density": {
 				"enable": true,
 				"value_area": 800
@@ -889,7 +889,7 @@ particlesJS("particles-js8" ,
 		"detect_on": "canvas",
 		"events": {
 			"onhover": {
-				"enable": false,
+				"enable": true,
 				"mode": "repulse"
 			},
 			"onclick": {
@@ -914,7 +914,7 @@ particlesJS("particles-js8" ,
 			},
 			"repulse": {
 				"distance": 400,
-				"duration": 0.4
+				"duration": 0.8
 			},
 			"push": {
 				"particles_nb": 4

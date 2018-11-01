@@ -63,6 +63,36 @@
 	color: white;
 }
 
+
+
+
+/*icon styling*/
+
+.iconfb , .iconyb{
+	color: #D8D8D8;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+    text-align: center;
+    font-size: 21px !important;
+    line-height: 2.4 !important;
+    transition: background-color 1.5s ease !important;
+    transition: color 1.5s ease !important;
+}
+.iconfb:hover{
+  	color: white;
+  	background-color: #3b5998;
+  }
+  .iconyb:hover{
+  	color: white;
+  	background-color: #F70000;
+  }
+.hide{
+	opacity: 0;
+}
+
+
 /*About us content*/
 .about1{
 	padding-top:70px;
