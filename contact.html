@@ -22,7 +22,7 @@
 			<div class="main col-sm-12 col-md-4">	
 				<div class="overlay">		
 					<div class="image1 new">
-						<img src="./images/contact-us/left3.jpg" alt="image">
+						<img src="./images/contact-us/left3.jpg" alt="image" class="left_img">
 					</div>
 
 				</div>
@@ -35,11 +35,11 @@
 			<div class="right_container col-md-8 col-sm-12 col-xs-12 ">
 				<div class="content">
 
-                    <div class="d-inline-block">
+					<div class="d-inline-block">
 						<a href="index.html" target="_blank">
-					        <i class="fa fa-home home"></i>
-				        </a>
-				    </div>
+							<i class="fa fa-home home"></i>
+						</a>
+					</div>
 
 					<div class="box1">
 						<h class="sub_head">Get in touch with us :</h> <br>
@@ -194,12 +194,12 @@
 					<!--div of footer-->
 					<div class="fluid">
 						<footer class="justify-content-between">
-							    <p>Moonriders</p>
-								<p>Copyright © 2018 | All Rights Reserved | Developed By OSD Team under IT Department with <i class="fa fa-heart icon4"></i>
-								</p>
+							<p>Moonriders</p>
+							<p>Copyright © 2018 | All Rights Reserved | Developed By<a data-toggle="modal" href="#newModal">&nbsp;OSD Team </a>under IT Department with <i class="fa fa-heart icon4"></i>
+							</p>
 						</footer>
 					</div>
-                    	<!--end of footer-->
+					<!--end of footer-->
 				</div>
 				<!--end of right div-->
 
@@ -209,6 +209,8 @@
 
 		</div>
 		<!--end of main div--->
+
+		<!--modals description-->
 		<div class="modal" id ="modal1">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -231,14 +233,57 @@
 						<iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3561.8462737641557!2d75.81737646499508!3d26.78116973318445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d26.7812369!2d75.8194394!4m5!1s0x396dc9763e6030f1%3A0x4137675e5cf54360!2sJECRC+Foundation%2C+Shri+Ram+ki+Nangal%2C+via+Sitapura+RIICO%2C+Tonk+Road%2C+Jaipur%2C+Rajasthan!3m2!1d26.7810587!2d75.81969939999999!5e0!3m2!1sen!2sin!4v1540673845218" height="450" frameborder="0" style="border:0" allowfullscreen>maps</iframe>
 					</div>
 					<div class="modal-footer">
-						<button  class="btn-btn-success but1" data-dismiss="modal">Close</button>
+						<button  class="btn-btn-success but2" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
 		</div>
 
 
+		<!-- Footer Modal -->
+		<div class="modal fade" id="newModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-notify modal-success" role="document">
+				<!--Content-->
+				<div class="modal-content">
+					<!--Header-->
+					<div class="modal-header">
+						<p class="heading lead display-2"><i class="fa fa-group icon5"></i><b class="mod">OUR TEAM</b></p>
 
+						<button type="button" class="close" data-dismiss="modal" aria-label="close"></button>
+					</div>
+
+					<!--Body-->
+					<div class="modal-body">
+						<div class="text-center">
+							<img src="./images/Footer_modal/img2.png" alt="image" class="mod_foot">
+							<br>
+							<ul style="list-style-type: none;">
+								    <li><b>Gourav Sharma</b><br>3rd year<br>I.T. Branch</li>
+								<div class="d-flex justify-content-between">
+								    <li><b>Yashvi Jain</b><br>2nd year<br>I.T. Branch</li>
+								    <li><b>Kabir Swami</b><br>2nd year<br>I.T. Branch</li>
+							    </div>
+							    <div class="d-flex justify-content-between">
+                                    <li><b>Khusal Paliwal</b><br>2nd year<br>I.T. Branch</li>
+								    <li><b>Pulkit</b><br>2nd year<br>I.T. Branch</li>
+							    </div>
+								    <li><b>Syed Uzma Ali</b><br>2nd year<br>I.T. Branch</li>
+							</ul>
+						</div>
+					</div>
+
+					<!--Footer-->
+					<div class="modal-footer">
+						<button  class="btn-btn-primary but3" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+				<!--/.Content-->
+			</div>
+		</div>
+		<!-- End of Footer Modal-->
+
+
+		<!--modal description ended-->
 		<script>
 			function on() {
 				document.getElementById("overlay").style.display = "block";
