@@ -60,7 +60,7 @@
 @media only screen and (max-width: 768px) {
 	div.box6
 	{
-		margin-left: 4vh; 
+		margin-left: 7vh; 
 	}
 	h1
 	{
@@ -70,7 +70,7 @@
 @media only screen and (max-width: 320px) {
 	div.box6
 	{
-		margin-right: 5vh;
+		margin-right: 4vh;
 		height: 243px;
 	}
 	div.message
@@ -99,14 +99,11 @@
 	div.box6
 	{
 		margin-left: 4vh; 
+		height: 228px;
 	}
 	h1.head_text
 	{
 		font-size: 8vh;
-	}
-	div.box6
-	{
-		height: 224px;
 	}
 	div.message
 	{
