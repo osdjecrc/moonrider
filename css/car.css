@@ -300,13 +300,9 @@
 
 /*  border for sponsers*/
 
-.border8{
-	border-bottom: 1px solid #16648D;
-	width: 95%;
-	margin: 0 auto;
-	height: 10px;
+.sponsorhead{
+	font-size: 1.7em !important;
 }
-
 
 
 @media screen and (max-width: 996px){
@@ -350,7 +346,15 @@
    width:362px;
     
 }
-
+.border5{
+	border-bottom: 1px solid black;
+	width: 45%;
+	margin: 0 auto;
+	height: 10px;
+}
+.helphead{
+	font-size: 1em !important;
+}
 .s-details{
     
     
