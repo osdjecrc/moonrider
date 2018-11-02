@@ -60,8 +60,11 @@ s.one{
 .two{
 	background-size: cover;
 	height: 400px !important;
+    width: 346px !important;
     transition: .5s ease;
-    backface-visibility: hidden;	
+    backface-visibility: hidden;
+    margin: auto;	
+    border: 1px solid #000;
 }
 .middle {
     transition: .5s ease;
@@ -82,8 +85,7 @@ s.one{
     opacity: 1 !important;
 }
 .containers:hover .bottom{   
-    color: transparent;
-    background-color: transparent;
+    display: none;
 }
 
 .text {
@@ -112,13 +114,27 @@ a i{
 }
 .bottom{
     position: absolute;
-    bottom: 0;
+    bottom: -15px;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 10px;
     text-align: center;
     font-size: 13px;
+}
+.button1{
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-10%);
+}
+.button1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.button1 a:hover{
+    color: black;
+    text-decoration: none;
 }
 
 /*For team members section*/
@@ -187,13 +203,18 @@ h1.pb-5{
 	position: absolute;
 	height: calc(100% - 100px);
 	top: 100%;
-	left: 45px;
 	text-align: center;
-	padding: 20px;
+	padding: 20px 55px;
 	box-sizing: border-box;
 	opacity: 0; 
 	transition: 0.5s;
 	color:#ffffff;
+}
+.container .box .content h3{
+    font-size: 20px;
+}
+.container .box .content p{
+    font-size: 15px;
 }
 .container .box:hover .content{
 	opacity: 1;
@@ -222,13 +243,16 @@ h1.pb-5{
     display: inline-block ! important;
     font-size: 15px ! important;
 }
+.footer_modal{
+    color: blue;
+}
 
 
 
 /*Media Queries*/
 @media only screen and (max-width: 320px) {
     /* For mobile phones: */
-    [class*="col-"] {
+    [class*="col-lg-3"] {
         width: 50% !important;
     }
     div.ml-3{
@@ -241,21 +265,20 @@ h1.pb-5{
         margin-top: 20px;
     }
     div.container .box:hover .image{
-        width: 50px;
-        height: 50px;
-        right: calc(50% - 25px);
+        width: 40px !important;
+        height: 40px !important;
+        right: calc(50% - 20px) !important;
     }
-    div.container .box:hover .content{
-        top: 50px;
-        left: 8px;
-        margin-top: 0;
+    div.container .box .content{
+        padding: 25px 10px 0 10px;
     }
     div.container .box .content h3{
-        font-size: 25px !important;
+        font-size: 12px !important;
         margin-bottom: 0;
+        text-align: center;
     }
     div.container .box .content p{
-        font-size: 15px !important;
+        font-size: 10px !important;
         margin-top: 0;
     }
     .col-sm-6{
@@ -270,14 +293,14 @@ h1.pb-5{
         display: block;
         width: 100% !important;
     }
+    .middle{
+        left: 50%;
+    }
     .fluid footer p{
         font-size: 13px !important;
         text-align: center;
         float: none;
         display: inline-table;
-    }
-    .middle{
-        left: 50%;
     }
     .fluid footer{
         display: block;
@@ -293,12 +316,42 @@ h1.pb-5{
     .bottom{
         left: 50%;
     }
+    .two{
+        width: 250px !important;
+        height: 300px !important; 
+    }
+    .containers .bottom b{
+        font-size: 10px !important;
+    }
+    .containers .bottom{
+        padding: 2px 10px;
+    }
+    .containers:hover .two {
+        display: none;
+    }
+
+    .containers:hover .middle {
+        display: none;
+    }
+    div.d-flex .mx-5{
+        display: inline-block;
+    }
+    div.ml-5{
+        margin-left: 0 !important;
+    }
+    div.mr-5{
+        margin-right: 0 !important;
+    }
+    .imag{
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
 @media only screen and (max-width: 568px) {
     /* For mobile phones: */
-    [class*="col-"] {
+    [class*="col-lg-3"] {
         width: 50% !important;
     }
     div.ml-3{
@@ -309,10 +362,13 @@ h1.pb-5{
         height: calc(150px - 30px);
         margin-top: 20px;
     }
+    div.container .box .content{
+        padding: 25px 10px 0 10px;
+    }
     div.container .box:hover .image{
-        width: 50px;
-        height: 50px;
-        right: calc(50% - 25px);
+        width: 40px !important;
+        height: 40px !important;
+        right: calc(50% - 20px);
     }
     div.container .box:hover .content{
         top: 50px;
@@ -320,33 +376,33 @@ h1.pb-5{
         margin-top: 0;
     }
     div.container .box .content h3{
-        font-size: 25px !important;
+        font-size: 12px;
         margin-bottom: 0;
     }
     div.container .box .content p{
-        font-size: 15px !important;
+        font-size: 10px;
         margin-top: 0;
     }
     .col-sm-6{
         padding: 0;
     }
-   .one{
-       padding-right: 0;
-       padding-left: 0;
-       margin-right: 0;
+    .one{
+     padding-right: 0;
+     padding-left: 0;
+     margin-right: 0;
     }
     .owl-carousel.owl-item img {
-        display: block;
-        width: 100% !important;
+       display: block;
+       width: 100% !important;
+    }
+    .middle{
+        left: 50%;
     }
     .fluid footer p{
         font-size: 13px !important;
         text-align: center;
         float: none;
         display: inline-table;
-    }
-    .middle{
-        left: 50%;
     }
     .fluid footer{
         display: block;
@@ -361,6 +417,27 @@ h1.pb-5{
     }
     .bottom{
         left: 50%;
+    }
+    .two{
+        width: 250px !important;
+        height: 300px !important; 
+    }
+    .containers .bottom b{
+        font-size: 10px !important;
+    }
+    .containers .bottom{
+        padding: 2px 10px;
+    }
+    .containers:hover .two {
+        display: none;
+    }
+
+    .containers:hover .middle {
+        display: none;
+    }
+    .imag{
+        width: 200px;
+        height: 200px;
     }
 
 }
@@ -381,6 +458,35 @@ h1.pb-5{
     .bottom{
         left: 50%;
     }
+    .two{
+        width: 300px !important;
+        height: 350px !important; 
+    }
+    .containers .bottom b{
+        font-size: 15px !important;
+    }
+    .containers .bottom{
+        padding: 2px 10px;
+    }
+    .containers:hover .two {
+        display: none;
+    }
+
+    .containers:hover .middle {
+        display: none;
+    }
+    div.container .box .content h3{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    div.container .box .content p{
+        font-size: 15px;
+        margin-top: 0;
+    }
+    .imag{
+        width: 200px;
+        height: 200px;
+    }
 }
 @media only screen and (width: 1024px){
     .fluid footer p{
@@ -398,5 +504,36 @@ h1.pb-5{
     }
     .bottom{
         left: 50%;
+    }
+    .two{
+        width: 300px !important;
+        height: 350px !important; 
+    }
+    .containers .bottom b{
+        font-size: 14px !important;
+    }
+    .containers .bottom{
+        padding: 2px 10px;
+    }
+    .containers:hover .two {
+        display: none;
+    }
+
+    .containers:hover .middle {
+        display: none;
+    }
+    .imag{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (min-width: 1040px)
+{
+    .containers .bottom b a i{
+        display: none;
+    } 
+    .imag{
+        width: 300px;
+        height: 300px;
     }
 }
