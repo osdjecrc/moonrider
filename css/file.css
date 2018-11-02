@@ -79,10 +79,12 @@ section {
 	text-align: center;
 }
 .container1{
+	width: 60% !important;
 	z-index: 1030 !important;
-	margin-top: 50px;
 	background-color: rgba(0, 0, 0,0.5);
 	padding: 50px;
+	border-radius: 7%;
+	margin: 0 auto;
 }
 section#section-1 {
 	padding-top: 0px;
@@ -112,19 +114,20 @@ section#section-8 {
 .display-3{
 	margin-top: 0px;
 }
-.box1{
-	padding-top: 40px;
-}
-.lead1{
+.box5{
+	margin: 40px auto;
+	padding: 30px;
+	border-radius: 7%;
 	width: 60%;
-	float: right !important;
-	padding-left: 10%;
-	padding-right: 50px;  
-	font-size: 1.1em !important; 
+	background-color: rgba(0, 0, 0,0.5);
+}
+.text2{
+	float: none;
+	width: 50%;
 }
 .image1{
-	width: 35%;
-	height: 250px;
+	width: 40%;
+	height: auto;
 	float: left;
 	padding-left: 50px;
 	padding-right: 50px;
