@@ -1,8 +1,9 @@
 body{
-	background: #FFC15E !important;
+    background: rgba(19, 49, 109, 0.5)  !important;
 }
 .back{
 	background-color: rgba(0, 0, 0,0.2) !important;
+    border: 2px solid #000 !important;
 }
 img{
 	width: 190px;
@@ -28,7 +29,7 @@ a i{
     color: #fff;
 }
 .button1 a:hover{
-    color: yellow;
+    color: lightblue;
     text-decoration: none;
 }
 
