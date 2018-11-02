@@ -4,9 +4,12 @@
 <head>
 	<title>Contact Us</title>
 	<link rel="stylesheet" type="text/css" href="./css/contact.css">
+	<!--favicon link-->
 	<link rel="shortcut icon" href="./images/favicon.png">
+	<!--font awesome link-->
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!--bootstrap cdn-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -36,7 +39,7 @@
 				<div class="content">
 
 					<div class="d-inline-block">
-						<a href="index.html" target="_blank">
+						<a href="index.html">
 							<i class="fa fa-home home"></i>
 						</a>
 					</div>
@@ -195,7 +198,7 @@
 					<div class="fluid">
 						<footer class="justify-content-between">
 							<p>Moonriders</p>
-							<p>Copyright © 2018 | All Rights Reserved | Developed By<a data-toggle="modal" href="#newModal">&nbsp;OSD Team </a>under IT Department with <i class="fa fa-heart icon4"></i>
+							<p>Copyright © 2018 | All Rights Reserved | Developed By <a href="#" class="footer_modal" data-toggle="modal" data-target=".bd-example-modal-lg">OSD Team</a>under IT Department with <i class="fa fa-heart icon4"></i>
 							</p>
 						</footer>
 					</div>
@@ -241,62 +244,61 @@
 
 
 		<!-- Footer Modal -->
-		<div class="modal fade extra" id="newModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-notify modal-success mod_div" role="document">
-				<!--Content-->
-				<div class="modal-content team">
-					<!--Header-->
-					<div class="modal-header hed">
-						<p class="display-2"><i class="fa fa-group icon5"></i>&nbsp;<b class="mod">OUR TEAM</b></p>
-
-						<button type="button" class="close" data-dismiss="modal" aria-label="close"></button>
-					</div>
-					<!--Body-->
-					<div class="modal-body">
-						<div class="text-center">
+		
+			<div class="modal fade bd-example-modal-lg eww" style="padding-right:0px;" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<div class="modal-header text-center">
+							<h5 class="modal-title" id="exampleModalLongTitle"><i class="fa fa-users">&nbsp;&nbsp;</i>Our Team</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body text-center">
+							<img class="imag" src="./images/Footer_modal/new.jpg"><br>
+							<span><b>Gourav Sharma</b></span><br>
+							<span>I.T.-3rd year</span>
 							<br>
-							<ul style="list-style-type: none;">
-								<div class="row">
-								    <div class="we col-sm-12">
-									    <img src="./images/Footer_modal/new.jpg" alt="image" class="mod_foot">
-									    <li><b>Gourav Sharma</b><br>I.T.-3rd year</li>
-								    </div>
+							<br>
+
+							<div class="row">
+								<div class="col-md">
+									<img class="imag" src="./images/Footer_modal/Kabir.jpg"><br>
+									<span><b>Kabir Swami</b></span><br>
+									<span>I.T.-2nd year</span>
 								</div>
-								<div class="d-flex justify-content-between row">
-									<div class="we col-md-6 col-sm-12">
-										<img src="./images/Footer_modal/new.jpg" alt="image" class="mod_foot">
-									    <li><b>Yashvi Jain</b><br>I.T.-2nd year</li>
-								    </div>
-								    <div class="we col-md-6 col-sm-12">
-								    	<img src="./images/Footer_modal/new.jpg" alt="image" class="mod_foot">
-									    <li><b>Kabir Swami</b><br>I.T.-2nd year</li>
-									</div>
+								<div class="col-md ml-auto">
+									<img class="imag" src="./images/Footer_modal/Khusal.jpg"><br>
+									<span><b>Khusal Paliwal</b></span><br>
+									<span>I.T.-2nd year</span>
 								</div>
-								<div class="row">
-									    <div class="we col-sm-12">
-										    <img src="./images/Footer_modal/new.jpg" alt="image" class="mod_foot">
-									        <li><b>Khusal Paliwal</b><br>I.T.-2nd year</li>
-									    </div>
+							</div>
+							<br>
+
+							<div class="row">
+								<div class="col-md">
+									<img class="imag" src="./images/Footer_modal/new.jpg"><br>
+									<span><b>Pulkit Gupta</b></span><br>
+									<span>I.T.-2nd year</span>
 								</div>
-                                <div class="d-flex justify-content-between row">
-                                	<div class="we col-md-6 col-sm-12">
-										<img src="./images/Footer_modal/new.jpg" alt="image" class="mod_foot">
-									    <li><b>Pulkit</b><br>I.T.-2nd year</li>
-								    </div>
-								    <div class="we col-md-6 col-sm-12">
-									    <img src="./images/Footer_modal/new.jpg" alt="image" class="mod_foot">
-								        <li><b>Syed Uzma Ali</b><br>I.T.-2nd year</li>
-								    </div>
+								<div class="col-md ml-auto">
+									<img class="imag" src="./images/Footer_modal/Uzma.jpg"><br>
+									<span><b>Syed Uzma Ali</b></span><br>
+									<span>I.T.-2nd year</span>
 								</div>
-							</ul>
+							</div>
+							<br>							
+
+							<img class="imag" src="./images/Footer_modal/yashvi.jpg"><br>
+							<span><b>Yashvi Jain</b></span><br>
+							<span>I.T.-2nd year</span>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 						</div>
 					</div>
-
-					<!--Footer-->
-					<div class="modal-footer">
-						<button  class="btn-btn-primary but3" data-dismiss="modal">Close</button>
-					</div>
 				</div>
+			</div>
 				<!--/.Content-->
 			</div>
 		</div>
