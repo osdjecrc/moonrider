@@ -64,7 +64,7 @@ s.one{
     transition: .5s ease;
     backface-visibility: hidden;
     margin: auto;	
-    border: 1px solid #000;
+    border: 5px solid #000;
 }
 .middle {
     transition: .5s ease;

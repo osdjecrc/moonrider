@@ -298,6 +298,16 @@
 }
 /*data content ends*/
 
+/*  border for sponsers*/
+
+.border8{
+	border-bottom: 1px solid #16648D;
+	width: 95%;
+	margin: 0 auto;
+	height: 10px;
+}
+
+
 
 @media screen and (max-width: 996px){
 	.icon1{
@@ -330,6 +340,20 @@
 		padding-left: 30%;
 	}
 
+}
+
+/*sponsers*/
+.mrq{
+    height: 53%;
+}
+.sponsors-content{
+   width:362px;
+    
+}
+
+.s-details{
+    
+    
 }
 @media screen and (max-width: 796px) {
 	.icon1{
